@@ -15,18 +15,24 @@ The purpose of this project is to create a refactored VBA workbook for Steve to 
 ### Performance Results
 The quickest benchmark to compare if the refactoring reduced the execution times, is by comparing the run times between the codes. Below is a comparison of the 2017 pre and post refactoring run times. The pre time shows that the code ran in 1.15 seconds while the post time shows that the code ran in 0.13 seconds. The difference of 1.02 seconds which is almost 89% less run time.
 
-![2017 PreFactoring Image](/2017%20Run%20Time.PNG)
+![2017 PreFactoring Image](/Resources/2017%20Run%20Time.PNG)
 
-![2017 ReFactored Image](/VBA_Challenge_2017.PNG)
+![2017 ReFactored Image](/Resources/VBA_Challenge_2017.PNG)
 
 Below is a comparison of the 2018 pre and post refactoring run times. The pre time shows that the code ran in 1.17 seconds while the post time shows that the code ran in 0.13 seconds. The difference of 1.04 seconds which is almost 89% less run time. 
 
-![2018 PreFactoring Image](/2018%20Run%20Time.PNG)
+![2018 PreFactoring Image](/Resources/2018%20Run%20Time.PNG)
 
-![2018 ReFactored Image](/VBA_Challenge_2018.PNG)
+![2018 ReFactored Image](/Resources/VBA_Challenge_2018.PNG)
+
+Beyond looking at the execution times, it's interesting to see the growth and development of the codes and the narrative of the steps of what the VBA are accomplishing. The beginning code focused on locating the starting and ending prices while the refactored code focused on looping but confirming before completing the run.
+
+![PreCode](/Resources/PreCode.PNG)
+
+![PostCode](/Resources/PostCode.PNG)
 
 ### Summary
-Based on the performance results, specifically the run times. It's easily seen the advantage of refactoring code with a reduced run time of 89%. At the same, refactoring code has a disadvantage of more time to adjust the code but ultimately it paid off in this example. 
+The concept of refactoring is reviewing to improve and make it more efficient. Based on the performance results, specifically the run times. It's easily seen the advantage of refactoring the code in this task with a reduced run time of 89%. At the same, with any review there is time dedicated to reviewing and adjusting with no guaranteed that the edits will either improve the run time or even garner the same results in the end. 
 
 ### Advantages and Disadvantages 
-
+The advantages of the refactored code is that it allows for not only quicker results, it has check points to ensure that the selected tickers are accounted for. The disadvantages in comparison to the original code is the simplicity of it and the user friendliness of reading the code. 
