@@ -14,11 +14,15 @@ The purpose of this project is to create a refactored VBA workbook for Steve to 
 
 ### Performance Results
 The quickest benchmark to compare if the refactoring reduced the execution times, is by comparing the run times between the codes. Below is a comparison of the 2017 pre and post refactoring run times. The pre time shows that the code ran in 1.15 seconds while the post time shows that the code ran in 0.13 seconds. The difference of 1.02 seconds which is almost 89% less run time.
+
 ![2017 PreFactoring Image](/2017%20Run%20Time.PNG)
+
 ![2017 ReFactored Image](/VBA_Challenge_2017.PNG)
 
 Below is a comparison of the 2018 pre and post refactoring run times. The pre time shows that the code ran in 1.17 seconds while the post time shows that the code ran in 0.13 seconds. The difference of 1.04 seconds which is almost 89% less run time. 
+
 ![2018 PreFactoring Image](/2018%20Run%20Time.PNG)
+
 ![2018 ReFactored Image](/VBA_Challenge_2018.PNG)
 
 ### Summary
