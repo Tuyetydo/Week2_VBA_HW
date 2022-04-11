@@ -27,8 +27,10 @@ Below is a comparison of the 2018 pre and post refactoring run times. The pre ti
 
 Beyond looking at the execution times, it's interesting to see the growth and development of the codes and the narrative of the steps of what the VBA are accomplishing. The beginning code focused on locating the starting and ending prices while the refactored code focused on looping but confirming before completing the run.
 
+- Original 
 ![PreCode](/Resources/PreCode.PNG)
 
+- Refactored
 ![PostCode](/Resources/PostCode.PNG)
 
 ### Summary
